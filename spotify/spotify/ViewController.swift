@@ -80,7 +80,7 @@ class ViewController: UIViewController {
             var transform = CATransform3DIdentity
             transform.m34 = -1/500
             
-            transform = CATransform3DRotate(transform, degreeToRadians(deg: angleOffset), 0, 1, 0)
+            transform = CATransform3DRotate(transform, degreeToRadians(deg: angleOffset), 1, 0, 0)
             
             transform = CATransform3DTranslate(transform, 0, 0, 200)
             
